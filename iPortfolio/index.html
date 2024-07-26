@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - iPortfolio Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column" style="background-color: black; color: white;">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="Rim.jpeg" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <!-- <img src="assets/img/logo.png" alt=""> -->
+      <h1 class="sitename">Rimsha Zainab</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=61550723610090" class="facebook"><i class="bi bi-facebook"></i></a>
+      <a href="https://www.instagram.com/rimsha13.0/" class="instagram"><i class="bi bi-instagram"></i></a>
+      <a href="www.linkedin.com/in/rimsha-zainab-9b273628b" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="https://images.unsplash.com/photo-1504805572947-34fad45aed93?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZG8lMjBzb21ldGhpbmclMjBncmVhdHxlbnwwfHwwfHx8MA%3D%3D" alt="" data-aos="fade-in" class="">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100" style="text-align: center;">
+        <h2>-Welcome to my portfolio-</h2>
+        <p>I'm <span class="typed" data-typed-items="Data Scientist, Python Developer ">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+    </div>
+    
+
+    </section><!-- /Hero Section -->
+    <style>
+      /* Style the about-container to use flexbox */
+      .about-container {
+          display: flex;
+          align-items: center; /* Center content vertically */
+          justify-content: space-between; /* Space between the white box and the image */
+          padding: 20px;
+          gap: 15px; /* Adds spacing between the white box and the image */
+      }
+
+      /* Style the white box */
+      .white-box {
+          background-color: rgb(0, 0, 0);
+          color: white;
+          padding: 20px;
+          border-radius: 8px;
+          width: 45%; /* Adjust width as needed */
+      }
+
+      /* Make the "About Me" heading bold */
+      .white-box h2 {
+          font-weight: bold;
+          color: white;
+      }
+
+      /* Style the button */
+      .cv-button {
+          display: inline-block;
+          margin-top: 10px;
+          padding: 10px 20px;
+          font-size: 16px;
+          color: white;
+          background-color: #03375a; /* Blue background for the button */
+          border: none;
+          border-radius: 15px;
+          text-decoration: none; /* Remove underline from the link */
+          text-align: center;
+      }
+
+      /* Change button color on hover */
+      .cv-button:hover {
+          background-color: #000000; /* Darker blue */
+      }
+
+      /* Style the image block */
+      .image-block {
+          width: 40%; /* Adjust width as needed */
+          display: flex;
+          justify-content: center; /* Center the image horizontally */
+      }
+
+      .image-block img {
+          max-width: 100%; /* Ensure the image fits within the container */
+          height: auto;
+          border-radius: 8px; /* Optional: Add some border-radius to the image */
+      }
+  </style>
+</head>
+<body>
+
+  <!-- About Section -->
+  <section id="about" class="about section" style="background-color: black; color: white;">
+      <div class="container about-container" data-aos="fade-up">
+          <div class="white-box">
+              <h2>About Me</h2>
+              <p>A driven software engineering student passionate about data science, machine learning, AI, Python, 
+                and C++, eager to leverage expertise in innovative projects while embracing opportunities for 
+                growth and leadership development through continuous learning.</p>
+              <a href="CV.pdf" class="cv-button" target="_blank">MY CV</a> <!-- Replace with your CV link -->
+          </div>
+          <div class="image-block">
+              <img src="Rim.jpeg" class="img-fluid" alt="About Me Image">
+          </div>
+      </div>
+  </section>
+
+<!-- Skills Section -->
+<section id="skills" class="skills section" style="background-color: black; color: white; padding: 50px 0;">
+
+ <!-- Section Title -->
+ <div class="container section-title" data-aos="fade-up" style="text-align: left;">
+  <h2 style="color: white; font-weight: bold;">Skills</h2>
+</div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row skills-content skills-animation">
+
+      <div class="col-lg-6">
+
+        <div class="progress" style="margin-bottom: 20px;">
+          <span class="skill" style="color: white;"><span>Python</span> <i class="val">80%</i></span>
+          <div class="progress-bar-wrap" style="background-color: #333; border-radius: 5px; overflow: hidden;">
+            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="height: 8px; background-color: #03375a; width: 80%; transition: width 0.4s ease;"></div> <!-- Blue color for the bar -->
+          </div>
+        </div><!-- End Skills Item -->
+
+        <div class="progress" style="margin-bottom: 20px;">
+          <span class="skill" style="color: white;"><span>C++</span> <i class="val">70%</i></span>
+          <div class="progress-bar-wrap" style="background-color: #333; border-radius: 5px; overflow: hidden;">
+            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="height: 8px; background-color: #03375a; width: 70%; transition: width 0.4s ease;"></div> <!-- Blue color for the bar -->
+          </div>
+        </div><!-- End Skills Item -->
+
+        <div class="progress" style="margin-bottom: 20px;">
+          <span class="skill" style="color: white;"><span>Java</span> <i class="val">50%</i></span>
+          <div class="progress-bar-wrap" style="background-color: #333; border-radius: 5px; overflow: hidden;">
+            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 8px; background-color: #03375a; width: 50%; transition: width 0.4s ease;"></div> <!-- Blue color for the bar -->
+          </div>
+        </div><!-- End Skills Item -->
+
+      </div>
+
+      <div class="col-lg-6">
+
+        <div class="progress" style="margin-bottom: 20px;">
+          <span class="skill" style="color: white;"><span>Numpy/Pandas</span> <i class="val">80%</i></span>
+          <div class="progress-bar-wrap" style="background-color: #333; border-radius: 5px; overflow: hidden;">
+            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="height: 8px; background-color: #03375a; width: 80%; transition: width 0.4s ease;"></div> <!-- Blue color for the bar -->
+          </div>
+        </div><!-- End Skills Item -->
+
+        <div class="progress" style="margin-bottom: 20px;">
+          <span class="skill" style="color: white;"><span>Matplotlib/scipy</span> <i class="val">80%</i></span>
+          <div class="progress-bar-wrap" style="background-color: #333; border-radius: 5px; overflow: hidden;">
+            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="height: 8px; background-color: #03375a; width: 80%; transition: width 0.4s ease;"></div> <!-- Blue color for the bar -->
+          </div>
+        </div><!-- End Skills Item -->
+
+        <div class="progress" style="margin-bottom: 20px;">
+          <span class="skill" style="color: white;"><span>Sklearn</span> <i class="val">55%</i></span>
+          <div class="progress-bar-wrap" style="background-color: #333; border-radius: 5px; overflow: hidden;">
+            <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="height: 8px; background-color: #03375a ; width: 55%; transition: width 0.4s ease;"></div> <!-- Blue color for the bar -->
+          </div>
+        </div><!-- End Skills Item -->
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section><!-- /Skills Section -->
+
+<!-- Explore My Work Section -->
+<section id="explore-my-work" style="background-color: black; padding: 50px 0; text-align: center;">
+  <!-- Section Title -->
+  <div class="container" data-aos="fade-up">
+    <h1 style="color: white; font-weight: bold;">Explore My Work</h1> <!-- Heading Style -->
+  </div><!-- End Section Title -->
+
+  <!-- Image -->
+  <div class="container" style="margin-top: 20px;">
+    <img src="https://png.pngtree.com/thumb_back/fh260/background/20230617/pngtree-web-banner-3d-rendered-ui-for-seo-data-analytics-and-future-image_3618751.jpg" alt="Explore My Work Image" style="max-width: 100%; height: auto; border-radius: 8px;"> <!-- Image Style -->
+  </div>
+</section><!-- /Explore My Work Section -->
+
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio section" style="background-color: black; padding: 50px 0;">
+  
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up" style="text-align: left;">
+    <h2 style="color: white; font-weight: bold;">Portfolio</h2>
+  </div><!-- End Section Title -->
+
+  <!-- Portfolio Blocks -->
+  <div class="container portfolio-blocks" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between; padding: 0 20px;">
+    
+    <!-- Portfolio Item 1 -->
+    <div class="portfolio-item" style="background-color: white; color: black; width: calc(33.33% - 20px); box-sizing: border-box; border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; margin-bottom: 20px; height: 400px;">
+      <div class="portfolio-image" style="flex: 1; background-image: url('https://c0.wallpaperflare.com/preview/747/632/926/smart-city-communication-network.jpg'); background-size: cover; background-position: center; height: 50%;"></div>
+      <div class="portfolio-content" style="flex: 1; padding: 20px; display: flex; flex-direction: column; justify-content: space-between;">
+        <h2>Smart City Management System</h2>
+        <a href="https://github.com/Rimsha313" target="_blank" style="display: inline-block; padding: 10px 20px; color: white; background-color: #03375a; text-decoration: none; border-radius: 4px; text-align: center; margin-top: auto;">View on GitHub</a>
+      </div>
+    </div>
+
+    <!-- Portfolio Item 2 -->
+    <div class="portfolio-item" style="background-color: white; color: black; width: calc(33.33% - 20px); box-sizing: border-box; border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; margin-bottom: 20px; height: 400px;">
+      <div class="portfolio-image" style="flex: 1; background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxq78dVbYUfa3tmOPdyMRwSmDZcvliSd6MTryQxniXcz5iMNEQglNpq8vtkrPjHVqIeac&usqp=CAU'); background-size: cover; background-position: center; height: 50%;"></div>
+      <div class="portfolio-content" style="flex: 1; padding: 20px; display: flex; flex-direction: column; justify-content: space-between;">
+        <h2>Analysis on top movie streaming</h2>
+        <a href="https://github.com/Rimsha313" target="_blank" style="display: inline-block; padding: 10px 20px; color: white; background-color: #03375a ; text-decoration: none; border-radius: 4px; text-align: center; margin-top: auto;">View on GitHub</a>
+      </div>
+    </div>
+
+    <!-- Portfolio Item 3 -->
+    <div class="portfolio-item" style="background-color: white; color: black; width: calc(33.33% - 20px); box-sizing: border-box; border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; margin-bottom: 20px; height: 400px;">
+      <div class="portfolio-image" style="flex: 1; background-image: url('https://libertyondemand.biz/wp-content/uploads/2023/08/random-password-generator.jpg'); background-size: cover; background-position: center; height: 50%;"></div>
+      <div class="portfolio-content" style="flex: 1; padding: 20px; display: flex; flex-direction: column; justify-content: space-between;">
+        <h2>Password Generator</h2>
+        <a href="https://github.com/Rimsha313" target="_blank" style="display: inline-block; padding: 10px 20px; color: white; background-color: #03375a ; text-decoration: none; border-radius: 4px; text-align: center; margin-top: auto;">View on GitHub</a>
+      </div>
+    </div>
+
+    <!-- Portfolio Item 4 -->
+    <div class="portfolio-item" style="background-color: white; color: black; width: calc(33.33% - 20px); box-sizing: border-box; border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; margin-bottom: 20px; height: 400px;">
+      <div class="portfolio-image" style="flex: 1; background-image: url('https://assets-global.website-files.com/60c0cec90f57824353f55893/62c52a398407c85f890833ea_What%20is%20a%20file%20management%20system%20(1).png'); background-size: cover; background-position: center; height: 50%;"></div>
+      <div class="portfolio-content" style="flex: 1; padding: 20px; display: flex; flex-direction: column; justify-content: space-between;">
+        <h2>File Management</h2>
+        <a href="https://github.com/Rimsha313" target="_blank" style="display: inline-block; padding: 10px 20px; color: white; background-color: #03375a ; text-decoration: none; border-radius: 4px; text-align: center; margin-top: auto;">View on GitHub</a>
+      </div>
+    </div>
+    
+  </div><!-- End Portfolio Blocks -->
+  
+</section>
+
+
+
+
+    <!-- Services Section -->
+    <section id="services" class="services section" style="background-color: black; padding: 50px 0;">
+  
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up" style="text-align: left;">
+          <h2 style="color: white; font-weight: bold;">Services</h2>
+        </div><!-- End Section Title -->
+      
+        <!-- Service Blocks -->
+        <div class="container services-blocks" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between; padding: 0 20px;">
+          
+          <!-- Service Item 1 -->
+          <div class="services-item" style="background-color: white; color: black; width: calc(33.33% - 20px); box-sizing: border-box; border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; margin-bottom: 20px; height: 400px;">
+            <div class="services-image" style="flex: 1; background-image: url('https://cdn.prod.website-files.com/6536c9ef4e9571becdf75520/654d27073b5ba60e35afaa97_Data-analysis-1.jpg'); background-size: cover; background-position: center; height: 50%;"></div>
+            <div class="services" style="flex: 1; padding: 20px; display: flex; flex-direction: column; justify-content: space-between;">
+              <h3>Data Analysis </h3>
+              <p>Extracting insights from data to inform business decisions.</p>
+            </div>
+          </div>
+      
+          <!-- Service Item 2 -->
+          <div class="services-item" style="background-color: white; color: black; width: calc(33.33% - 20px); box-sizing: border-box; border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; margin-bottom: 20px; height: 400px;">
+            <div class="services-image" style="flex: 1; background-image: url('https://www.dimins.com/wp-content/uploads/2022/09/use-of-color-in-visualization-ftrd.jpg'); background-size: cover; background-position: center; height: 50%;"></div>
+            <div class="services-content" style="flex: 1; padding: 20px; display: flex; flex-direction: column; justify-content: space-between;">
+              <h3>Data Cleaning and Visualization</h3>
+              <p>Data cleaning and preprocessing involve preparing raw data by handling missing values and outliers to ensure quality. Data visualization then creates clear, effective representations to communicate insights.</p>
+            </div>
+          </div>
+      
+          <!-- Service Item 3 -->
+          <div class="services-item" style="background-color: white; color: black; width: calc(33.33% - 20px); box-sizing: border-box; border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; margin-bottom: 20px; height: 400px;">
+            <div class="services-image" style="flex: 1; background-image: url('https://hbr.org/resources/images/article_assets/2018/10/oct18_26_758313937.jpg'); background-size: cover; background-position: center; height: 50%;"></div>
+            <div class="services-content" style="flex: 1; padding: 20px; display: flex; flex-direction: column; justify-content: space-between;">
+              <h3>Predictive Modeling</h3>
+              <p>Building models to forecast future trends, such as sales, customer behavior, or risk assessment.</p>
+            </div>
+          </div>
+      
+
+          
+        </div><!-- End service Blocks -->
+        
+      </section>
+
+  
+
+    <!-- Contact Section -->
+
+<section id="contact" class="contact section" style="background-color: black; padding: 50px 0; ">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up" style="text-align: left;">
+    <h2 style="color: white; font-weight: bold;">Contact</h2>
+  </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>DhokeSyedan, Rawalpindi, Pakistan</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+92 333 6185095</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>rimshashah699@gmail.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Your Name</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Message</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
